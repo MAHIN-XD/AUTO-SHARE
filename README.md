@@ -1,26 +1,9 @@
-# FB-POST-AUTO-SHARE-
-$ pkg update -y
+# FB-POST-AUTO-SHARE V1.4
 
-$ pkg upgrade -y
+rm -rf FB-POST-AUTO-SHARE
 
-$ pkg install python
+git clone https://github.com/MAHIN-XD/FB-POST-AUTO-SHARE-
 
-$ pkg install python2
+cd FB-POST-AUTO-SHARE
 
-$ pkg install python3
-
-$ pip install rich
-
-$ pip install requests
-
-$ pip2 install requests
-
-$ pip install mechanize
-
-$ pip2 install mechanize
-
-$ git clone https://github.com/MAHIN-XD/FB-POST-AUTO-SHARE-
-
-$ cd FB-POST-AUTO-SHARE-
-
-$ python fb-share.py
+python fb-share.py
