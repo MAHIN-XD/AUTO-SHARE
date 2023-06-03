@@ -5,7 +5,7 @@ try:
 except:os.system("pip uninstall requests -y;pip install requests")
  
 
-os.system('git pull --quiet 2>/dev/null')
+os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
  import SHARE
