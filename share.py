@@ -5,6 +5,7 @@ try:
 except:os.system("pip uninstall requests -y;pip install requests")
  
 
+os.system('xdg-open https://youtube.com/@mrmahin248')
 os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
