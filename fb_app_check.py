@@ -4,7 +4,7 @@
 import requests
 import os
 from bs4 import BeautifulSoup
-os.system('xgd-open https://github.com/MAHIN-XD')
+os.system('xdg-open https://github.com/MAHIN-XD')
 session = requests.Session()
 #---------------[ APP CHECKING DEF ]---------------#
 def fb_app(session):
